@@ -36,7 +36,10 @@ p {
     padding:10px 10px 10px 10px
 }
 .firstP{
-    background-color: blue;
+    background-color: rgb(254, 254, 175);
+}
+.secondP{
+    height:200vh;
 }
 
 .opposite {
@@ -51,13 +54,18 @@ p {
 }
 
 /* usefull for link into button */
-ul {
-    /* display: none; don't do this!*/
+nav{
+    position: sticky;
+    top:0;
+}
+
+ul{
+    
     list-style-type: none;
     padding: 0.5rem;
     text-align: right;
-    background-color: black;
-    margin:0;
+    background-color: black;  
+
 }
 li {
     display: inline-block;
