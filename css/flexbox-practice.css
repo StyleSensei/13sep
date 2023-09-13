@@ -21,11 +21,25 @@ body{
     .box{
         flex-shrink:1;
         width:420px;
+        transform: ;
  
-   
 } 
+.box:hover{
+    transform:scale(2);
+    transition: all 2s linear 0.5s;
+}
 .box:nth-child(2) {
     flex-shrink: 2; /* Try with flex-shrink */
     /* flex: 2 2 100px; */
     /* order: 0   at the begining */
+}
+.animate {
+    animation-name: slide;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 1s;
+    animation-iteration-count: 10;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+    /* animation: 5s ease-in-out 1s 2 normal forwards slide; */
 }
