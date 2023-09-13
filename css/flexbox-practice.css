@@ -1,0 +1,31 @@
+/* CSS reset */
+*
+ {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 4rem;
+}
+
+.container{
+    margin-top:30px;
+    display: flex;
+    justify-content: space-evenly;
+    /* gap: 1rem; */
+    flex-direction: row;
+    flex-wrap: wrap;
+    }
+
+    .box{
+        flex-shrink:1;
+        width:420px;
+ 
+   
+} 
+.box:nth-child(2) {
+    flex-shrink: 2; /* Try with flex-shrink */
+    /* flex: 2 2 100px; */
+    /* order: 0   at the begining */
+}

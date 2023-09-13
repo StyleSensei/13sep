@@ -54,7 +54,11 @@ p {
 }
 
 /* usefull for link into button */
-nav{
+/* nav{
+    position: sticky;
+    top:0;
+} */
+.nav{
     position: sticky;
     top:0;
 }
