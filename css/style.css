@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wght@8..144,400;8..144,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz@8..144&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sofia');
+
+html{
+    font-family: "Roboto", Helvetica, sans-serif;
+    
+    
+}
+h1{
+    font-family: "Sofia";
+    
+}
+
